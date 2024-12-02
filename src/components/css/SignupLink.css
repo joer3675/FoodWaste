@@ -1,0 +1,9 @@
+.icon-container {
+  margin-left: 0.5em; /* Space between text and icon */
+  transition: transform 0.3s ease; /* Smooth animation for movement */
+}
+
+/* Move the icon when hovering over the link */
+.signup-link:hover .icon-container {
+  transform: translateX(5px); /* Move the icon 5px to the right */
+}
